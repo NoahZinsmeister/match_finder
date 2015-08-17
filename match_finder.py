@@ -68,9 +68,10 @@ def match_finder(strings_to_match, database, stop_words = None,
                  dim_feature_space = 2**16, num_matches = 3,
                  similarity_metric = 'cosine', verbose = False):
     """
-    match_finder searches for matches ("similiar" strings) for strings
-    for each entry in strings_to_match among all entries in database.
-    match_finder builds on the classic bag-of-ngrams approach to
+    For each string in strings_to_match, match_finder finds close
+    matches ("similiar" strings) among the strings in database.
+
+    Match_finder builds on the classic bag-of-ngrams approach to
     constructing and comparing frequency vectors for texts; instead of
     using a dictionary of words to count occurences, match_finder
     employs the hashing trick to reduce the dimensionality of the

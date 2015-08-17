@@ -1,14 +1,11 @@
+import nltk
 import os
 import csv
-from resolver import match_finder
+from match_finder import match_finder
 
 if __name__ == "__main__":
     # reads stop words and replacement dict into memory
-    stop_words = set()
-    with open(os.getcwd() + "/stop_words.csv", "r") as csvfile:
-        reader = csv.reader(csvfile)
-        for row in reader:
-            stop_words.add(row[0])
+    stop_words = set(nltk.corpus.stopwords.words('english'))
     translation_dict = {}
     with open(os.getcwd() + "/translation_rules.csv", "r") as csvfile:
         reader = csv.reader(csvfile)
@@ -16,9 +13,8 @@ if __name__ == "__main__":
             for i in range(1, len(row)):
                 translation_dict[row[i]] = row[0]
     
-    # sets up chapters dictionary
+    # creates a dictionary of chapters
     chapters = {}
-
     for i in range(61):
         sentence_list = []
         chapter = "chapter_" + str(i+1)
@@ -39,8 +35,10 @@ if __name__ == "__main__":
 
     matches_to_write = {}
     for chapter in chapters:
+        # search for matches for each sentence in a given chapter
         strings_to_match = chapters[chapter]
         database = []
+        # searches among all sentences in every other chapter
         for other_chapter in chapters:
             if other_chapter != chapter:
                 database += chapters[other_chapter]
@@ -55,12 +53,14 @@ if __name__ == "__main__":
                                similarity_metric = similarity_metric,
                                verbose = verbose)
 
-        # saves sorted by the distance of closest match
+        # sorts strings by the distance of closest match
         strings_to_match_sorted = sorted(matches, key = lambda x:
-                                         matches[x][0][1])[0:2]
+                                         matches[x][0][1])
+        # gets corresponding matches for each string
         matched_from_database = [matches[x] for x in strings_to_match_sorted]
-        matches_to_write[chapter] = (strings_to_match_sorted,
-                                     matched_from_database)
+        # saves the top 2 matches from this chapter
+        matches_to_write[chapter] = (strings_to_match_sorted[0:2],
+                                     matched_from_database[0:2])
 
     with open("output_" + similarity_metric + ".csv", "w") as csvfile:
         writer = csv.writer(csvfile)
@@ -69,7 +69,8 @@ if __name__ == "__main__":
                   "Score (lower is better)"]
         writer.writerow(header)
         # write matches
-        for match in matches_to_write:
+        for match in sorted(matches_to_write,
+                            key = lambda x: int(x.split("_")[1])):
             for i, row in enumerate(matches_to_write[match][0]):
                 row_write = []
                 row_write.append(row)
