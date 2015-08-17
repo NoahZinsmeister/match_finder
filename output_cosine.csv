@@ -1,0 +1,123 @@
+Strings to Match,Chapter of Origin,Matches,Score (lower is better)
+"""Dear Lizzy!""",chapter_4,"""MY DEAR LIZZY,",-2.220446049250313e-16
+"""Oh!",chapter_4,"""Oh!""",0.0
+"Bingley.""",chapter_2,"Bingley?""",0.0
+"""Oh!""",chapter_2,"""Oh!",0.0
+"Darcy?""",chapter_10,"Darcy!""",0.0
+"""Oh!""",chapter_10,"""Oh!",0.0
+"GARDINER.""",chapter_50,"GARDINER.""",0.0
+Mrs. Bennet could hardly comprehend it.,chapter_50,Mrs. Bennet could hardly contain herself.,0.4
+"They were, therefore, to go.",chapter_44,"To Pemberley, therefore, they were to go.",0.2928932188134523
+She certainly did not hate him.,chapter_44,"""Certainly.",0.42264973081037416
+said Elizabeth to herself.,chapter_18,said Elizabeth.,-2.220446049250313e-16
+She shook her head.,chapter_18,He shook his head.,-2.220446049250313e-16
+"""DEAR SIR,",chapter_60,"""Dear Sir,--",-2.220446049250313e-16
+"Yours, etc.""",chapter_60,"Yours, etc.,",0.0
+"Oh, no.""",chapter_40,"""Oh!",0.0
+"""No, nothing at all.""",chapter_40,"There is nothing he would not do for her.""",0.0
+"""Dear Sir,--",chapter_13,"""DEAR SIR,",-2.220446049250313e-16
+Bennet.',chapter_13,"Bennet?""",0.0
+"Has she any family?""",chapter_14,"Here you are in your own family.""",0.0
+"""Ah!""",chapter_14,"""Ah!",0.0
+"""_That_ you certainly shall.""",chapter_26,"""I certainly shall not.",-2.220446049250313e-16
+Oh!,chapter_26,"""Oh!",0.0
+She is grown so brown and coarse!,chapter_45,"Won't it, Kitty?""",0.5917517095361369
+"In this house they were received by Miss Darcy, who was sitting there with Mrs. Hurst and Miss Bingley, and the lady with whom she lived in London.",chapter_45,"She is a very great favourite with some ladies of my acquaintance, Mrs. Hurst and Miss Bingley.",0.6747781822060045
+Elizabeth made no answer.,chapter_32,He made no answer.,0.2928932188134523
+"""Are you pleased with Kent?""",chapter_32,"Well, how pleased I am!",0.42264973081037416
+"Bingley?""",chapter_9,"Bingley.""",0.0
+"""Oh!",chapter_9,"""Oh!",0.0
+cried Elizabeth.,chapter_47,cried Elizabeth.,-2.220446049250313e-16
+cried Elizabeth when she had finished it.,chapter_47,"cried Elizabeth, when she had finished.",-2.220446049250313e-16
+"""I certainly shall not.",chapter_3,"""_That_ you certainly shall.""",-2.220446049250313e-16
+"""Which do you mean?""",chapter_3,What could she mean by it?,0.0
+"""How I long to see her again!",chapter_8,How I long to see her!,-2.220446049250313e-16
+What could she mean by it?,chapter_8,"""Which do you mean?""",0.0
+"""And what did she say?""",chapter_52,What does he say?,0.0
+"""True.",chapter_52,"""True.",0.0
+said Jane.,chapter_5,said Jane.,-2.220446049250313e-16
+"""Oh!",chapter_5,"""Oh!",0.0
+cried Elizabeth.,chapter_49,cried Elizabeth.,-2.220446049250313e-16
+Heaven forbid!,chapter_49,"""Heaven forbid!",-2.220446049250313e-16
+"""Good gracious!""",chapter_38,"""Good gracious!",-2.220446049250313e-16
+You see on what a footing we are.,chapter_38,"Did you see it?""",0.42264973081037416
+"""Good Lord!",chapter_23,'Tis as good as a Lord!,0.2928932188134523
+Nothing could console and nothing could appease her.,chapter_23,"""No, nothing at all.""",0.42264973081037416
+"""What, none of you?""",chapter_29,"""None at all.",0.0
+How was that possible?,chapter_29,"""Is it possible?""",0.0
+"""MY DEAR SIR,",chapter_48,"""DEAR SIR,",-2.220446049250313e-16
+she cried.,chapter_48,cried he.,0.0
+"""My eldest sister has been in town these three months.",chapter_30,"I could not allow myself to conceal that your sister had been in town three months last winter, that I had known it, and purposely kept it from him.",0.5545645968126259
+"Have you never happened to see her there?""",chapter_30,"Did you see it?""",0.5917517095361369
+Good gracious!,chapter_51,"""Good gracious!",-2.220446049250313e-16
+"""Oh, lord!",chapter_51,"""Oh, lord!",-2.220446049250313e-16
+"To Pemberley, therefore, they were to go.",chapter_42,"They were, therefore, to go.",0.2928932188134523
+what was the name of its proprietor?,chapter_42,"""What is his name?""",0.42264973081037416
+It is impossible.,chapter_17,Impossible!,0.0
+Oh!,chapter_17,"""Oh!",0.0
+"He is, indeed.",chapter_55,"""Indeed, I could not.",0.0
+I knew how it would be.,chapter_55,"I, who knew what he was.",0.0
+said Elizabeth.,chapter_58,said Elizabeth.,-2.220446049250313e-16
+"""Indeed I had.",chapter_58,"""Indeed, I could not.",0.0
+"Darcy.""",chapter_6,"Darcy?""",0.0
+Mr. Darcy bowed.,chapter_6,Mr. Darcy!,0.2928932188134523
+"""Yes, very well.",chapter_56,yes.,0.0
+"""True.",chapter_56,"""True.",0.0
+"""I cannot believe it.",chapter_24,"""No, I believe not.""",0.0
+"""My dear Jane!""",chapter_24,"my dear, dear Jane, I am so happy!",0.33333333333333315
+"I will think no more about him.""",chapter_54,"""Why will you think so?",-2.220446049250313e-16
+'Ah!,chapter_54,"""Ah!",0.0
+"Collins!""",chapter_20,"Collins.""",0.0
+"""Of what are you talking?""",chapter_20,What is it you are talking of?,0.0
+"Darcy?""",chapter_43,"Darcy?""",0.0
+why did she come?,chapter_43,"Why does she not come in?""",0.0
+So much the better.,chapter_59,"""Well, so much the better.",-2.220446049250313e-16
+"""Oh, yes!",chapter_59,"""Oh, yes!",-2.220446049250313e-16
+"""FITZWILLIAM DARCY""",chapter_35,"Darcy?""",0.42264973081037416
+How he lived I know not.,chapter_35,I don't know.,0.42264973081037416
+said Elizabeth.,chapter_41,said Elizabeth.,-2.220446049250313e-16
+"""Good Heaven!",chapter_41,Good Heaven!,-2.220446049250313e-16
+"she cried; ""I, who have prided myself on my discernment!",chapter_36,cried he.,0.5917517095361369
+She grew absolutely ashamed of herself.,chapter_36,I am ashamed of you!,0.5917517095361369
+cried Elizabeth.,chapter_11,cried Elizabeth.,-2.220446049250313e-16
+"""What could he mean?",chapter_11,What could she mean by it?,0.0
+"""Why will you think so?",chapter_21,"I will think no more about him.""",-2.220446049250313e-16
+It must be his own doing.,chapter_21,"Must it be so?""",0.0
+"""What is it you mean?""",chapter_33,What could she mean by it?,0.0
+"""Are you indeed?",chapter_33,"""Indeed, I could not.",0.0
+To Mr. Darcy it was welcome intelligence--Elizabeth had been at Netherfield long enough.,chapter_12,Mr. Darcy!,0.6307255270620018
+They were not welcomed home very cordially by their mother.,chapter_12,It would be dreadful!,0.683772233983162
+"""MY DEAR LIZZY,",chapter_61,"""Dear Lizzy!""",-2.220446049250313e-16
+"""Yours, etc.""",chapter_61,"Yours, etc.""",0.0
+said Jane.,chapter_7,said Jane.,-2.220446049250313e-16
+What does he say?,chapter_7,"""And what did she say?""",0.0
+"""So much the better.",chapter_25,"""Well, so much the better.",-2.220446049250313e-16
+Poor Jane!,chapter_25,What a stroke was this for poor Jane!,0.2928932188134523
+Good Heaven!,chapter_39,"""Good Heaven!",-2.220446049250313e-16
+"""What do you think?",chapter_39,only think!,0.0
+He shook his head.,chapter_16,She shook her head.,-2.220446049250313e-16
+cried Elizabeth.,chapter_16,cried Elizabeth.,-2.220446049250313e-16
+Thank Heaven!,chapter_53,Thank Heaven!,-2.220446049250313e-16
+"""Oh, lord!",chapter_53,"""Oh, lord!",-2.220446049250313e-16
+"""So much the better.",chapter_31,"""Well, so much the better.",-2.220446049250313e-16
+What is it you are talking of?,chapter_31,"""Of what are you talking?""",0.0
+"""Oh, yes.",chapter_46,"""Oh, yes!",-2.220446049250313e-16
+"""Oh, yes!",chapter_46,"""Oh, yes!",-2.220446049250313e-16
+"""Oh!""",chapter_57,"""Oh!",0.0
+yes.,chapter_57,yes.,0.0
+cried Elizabeth.,chapter_28,cried Elizabeth.,-2.220446049250313e-16
+Only look at her.,chapter_28,You do not look well.,0.0
+But so they always are.,chapter_37,But it is always so.,0.0
+"""What would she have said?",chapter_37,said she.,0.0
+What could be the meaning of it?,chapter_15,"""What can be the meaning of this?""",0.42264973081037416
+It was impossible to imagine; it was impossible not to long to know.,chapter_15,Impossible!,0.5
+"""Engaged to Mr. Collins!",chapter_22,"""From Mr. Collins!",0.2928932188134523
+"My dear Charlotte--impossible!""",chapter_22,Dear me!,0.42264973081037416
+You know I have.,chapter_34,I don't know.,0.0
+"On this subject, what can you have to say?",chapter_34,"and what can _he_ have to say?""",0.2928932188134523
+"Collins.""",chapter_19,"Collins!""",0.0
+"""You forget that I have made no answer.",chapter_19,He made no answer.,0.2928932188134523
+Thank Heaven!,chapter_27,Thank Heaven!,-2.220446049250313e-16
+"""Oh!",chapter_27,"""Oh!",0.0
+"""Bingley.""",chapter_1,"Bingley.""",0.0
+"""Oh!",chapter_1,"""Oh!",0.0
