@@ -30,7 +30,7 @@ if __name__ == "__main__":
     num_ngrams = range(1,5)
     dim_feature_space = 2**16
     num_matches = 1
-    similarity_metric = "euclidean"
+    similarity_metric = "cosine"
     verbose = True
 
     matches_to_write = {}

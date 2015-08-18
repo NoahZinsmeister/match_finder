@@ -1,123 +1,123 @@
 Strings to Match,Chapter of Origin,Matches,Score (lower is better)
 """Oh!",chapter_1,"""Oh!",0.0
 """Bingley.""",chapter_1,"Bingley?""",0.0
-"Bingley.""",chapter_2,"Bingley?""",0.0
 cried he.,chapter_2,she cried.,0.0
-Here she was interrupted again.,chapter_3,"""I will not be interrupted.",0.0
+"Bingley.""",chapter_2,"Bingley?""",0.0
+"""Which do you mean?""",chapter_3,"""What is it you mean?""",0.0
 """Oh!",chapter_3,"""Oh!",0.0
 """Oh!",chapter_4,"""Oh!",0.0
 """Dear Lizzy!""",chapter_4,"""MY DEAREST LIZZY,--",0.0
-said Jane.,chapter_5,said Jane.,0.0
 """Oh!",chapter_5,"""Oh!",0.0
-"Darcy.""",chapter_6,"Darcy.""",0.0
-I was never more annoyed!,chapter_6,"This will never do.""",1.4142135623730951
-What does he say?,chapter_7,"Now what have you to say?""",0.0
-said Jane.,chapter_7,said Jane.,0.0
+said Jane.,chapter_5,said Jane.,0.0
+"Darcy.""",chapter_6,"Darcy?""",0.0
+"""Never, sir.""",chapter_6,"No, never.",1.4142135623730951
+"""Oh!",chapter_7,"""Oh!",0.0
+"""MY DEAREST LIZZY,--",chapter_7,"""Dear Lizzy!""",0.0
 """Certainly not.""",chapter_8,"""Certainly.",0.0
-"""I think she will.",chapter_8,"""What do you think?",0.0
-"Bingley?""",chapter_9,"""Bingley.""",0.0
+"""I think she will.",chapter_8,"I will think no more about him.""",0.0
 """Oh!",chapter_9,"""Oh!",0.0
-yes.,chapter_10,"""Yes.",0.0
-"""Oh!""",chapter_10,"""Oh!",0.0
+"Bingley?""",chapter_9,"Bingley?""",0.0
+"Darcy?""",chapter_10,"Darcy.""",0.0
+"""Oh!",chapter_10,"""Oh!",0.0
+"""Oh!",chapter_11,"""Oh!",0.0
 """What could he mean?",chapter_11,What could she mean by it?,0.0
-cried Elizabeth.,chapter_11,cried Elizabeth.,0.0
 They were not welcomed home very cordially by their mother.,chapter_12,But who was your mother?,3.0
-Catherine and Lydia had information for them of a different sort.,chapter_12,"""Very well.",3.872983346207417
-"""Dear Sir,--",chapter_13,"""DEAR SIR,",0.0
+Catherine and Lydia had information for them of a different sort.,chapter_12,"""A little.""",3.872983346207417
+"""Ah!",chapter_13,'Ah!,0.0
 """Oh!",chapter_13,"""Oh!",0.0
-"""Ah!""",chapter_14,"""Ah!",0.0
+"""Ah!""",chapter_14,'Ah!,0.0
 "Has she any family?""",chapter_14,"Here you are in your own family.""",0.0
 What could be the meaning of it?,chapter_15,"""What can be the meaning of this?""",1.4142135623730951
-His plan did not vary on seeing them.,chapter_15,"""Very well.",2.6457513110645907
+His plan did not vary on seeing them.,chapter_15,"""A little.""",2.6457513110645907
+"Darcy?""",chapter_16,"Darcy?""",0.0
 But she is nothing to me now.,chapter_16,"""No, nothing at all.""",0.0
-"Here you are in your own family.""",chapter_16,"Has she any family?""",0.0
-Oh!,chapter_17,"""Oh!",0.0
 It is impossible.,chapter_17,Impossible!,0.0
-"""Very well.",chapter_18,"""It is well.",0.0
-"Darcy.""",chapter_18,"Darcy!""",0.0
-"Collins.""",chapter_19,"Collins!""",0.0
-"""No, no, nonsense, Lizzy.",chapter_19,But Lizzy!,1.4142135623730951
-Mr.,chapter_20,"""Mr.",0.0
-"Collins!""",chapter_20,"Collins.""",0.0
-But you do not know _all_.,chapter_21,"""I do not know.",0.0
-"""Why will you think so?",chapter_21,"""What do you think?",0.0
-"My dear Charlotte--impossible!""",chapter_22,Dear me!,1.4142135623730951
+Oh!,chapter_17,"""Oh!",0.0
+"""I hope not.""",chapter_18,"""I hope not so.",0.0
+"Darcy!""",chapter_18,"Darcy?""",0.0
+"Collins.""",chapter_19,"Collins.""",0.0
+"I desire you to stay where you are.""",chapter_19,"""No, no; stay where you are.",1.4142135623730951
+"""Of what are you talking?""",chapter_20,What is it you are talking of?,0.0
+"""Very well.",chapter_20,"""It is well.",0.0
+But you do not know _all_.,chapter_21,"You know not what you are about.""",0.0
+"""Why will you think so?",chapter_21,"I will think no more about him.""",0.0
+"My dear Charlotte--impossible!""",chapter_22,dear me!,1.4142135623730951
 """Engaged to Mr. Collins!",chapter_22,"""From Mr. Collins!",1.7320508075688772
+"""What should not you mind?""",chapter_23,"""A little.""",1.4142135623730951
 """Good Lord!",chapter_23,Lord!,1.4142135623730951
-"""What should not you mind?""",chapter_23,"""Very well.",1.4142135623730951
 """My dear Jane!""",chapter_24,"""Dearest Jane!",0.0
-Do not distress me by the idea.,chapter_24,"I had not an idea of it.""",1.4142135623730951
+When is your turn to come?,chapter_24,"Why does she not come in?""",1.4142135623730951
 They are all for what they can get.,chapter_25,"""I do not get on at all.",0.0
 """So much the better.",chapter_25,"""So much the better.",0.0
 Oh!,chapter_26,"""Oh!",0.0
 """_That_ you certainly shall.""",chapter_26,"""I certainly shall not.",0.0
-Oh!,chapter_27,"""Oh!",0.0
+Thank Heaven!,chapter_27,Thank Heaven!,0.0
 """Oh!",chapter_27,"""Oh!",0.0
-"""La!",chapter_28,"""La!",0.0
-cried Elizabeth.,chapter_28,cried Elizabeth.,0.0
-How was that possible?,chapter_29,"""Is it possible?""",0.0
+"Yes, she will do for him very well.",chapter_28,"""Yes, very well.",0.0
+"Why does she not come in?""",chapter_28,why did she come?,0.0
+"""That is very strange.",chapter_29,"But it is so strange!""",0.0
 """Oh!",chapter_29,"""Oh!",0.0
-"Have you never happened to see her there?""",chapter_30,"This will never do.""",2.23606797749979
-The room in which the ladies sat was backwards.,chapter_30,"""Very well.",3.3166247903554
+"Have you never happened to see her there?""",chapter_30,"Did you see it?""",2.23606797749979
+The room in which the ladies sat was backwards.,chapter_30,"""A little.""",3.3166247903554
 What is it you are talking of?,chapter_31,"""Of what are you talking?""",0.0
-"""So much the better.",chapter_31,"""So much the better.",0.0
-"""What can be the meaning of this?""",chapter_32,"""Very well.",1.4142135623730951
-But that is not the case _here_.,chapter_32,"""Very well.",1.4142135623730951
-"""What is it you mean?""",chapter_33,"""Which do you mean?""",0.0
-"""Oh!",chapter_33,"""Oh!",0.0
-You know I have.,chapter_34,But you do not know _all_.,0.0
+"""So much the better.",chapter_31,So much the better.,0.0
+"""What can be the meaning of this?""",chapter_32,"""A little.""",1.4142135623730951
+But that is not the case _here_.,chapter_32,"""A little.""",1.4142135623730951
+said she.,chapter_33,said she.,0.0
+"""Are you indeed?",chapter_33,She did indeed.,0.0
+You know I have.,chapter_34,"You know not what you are about.""",0.0
 They were natural and just.,chapter_34,But now it was all too natural.,0.0
-How he lived I know not.,chapter_35,But you do not know _all_.,1.4142135623730951
-Pardon me.,chapter_35,"""Very well.",1.4142135623730951
+How he lived I know not.,chapter_35,"You know not what you are about.""",1.4142135623730951
+"""FITZWILLIAM DARCY""",chapter_35,"Darcy?""",1.4142135623730951
 This cannot be!,chapter_36,it cannot be.,0.0
-"But, alas!",chapter_36,"""Very well.",1.4142135623730951
+"But, alas!",chapter_36,"""A little.""",1.4142135623730951
+But so they always are.,chapter_37,But it is always so.,0.0
 Your uncle!,chapter_37,"where, where is my uncle?""",0.0
-Oh!,chapter_37,"""Oh!",0.0
-"""Good gracious!""",chapter_38,Good gracious!,0.0
+"""Good gracious!""",chapter_38,"""Good gracious!",0.0
 You see on what a footing we are.,chapter_38,"Did you see it?""",1.4142135623730951
+"""Oh!",chapter_39,"""Oh!",0.0
 Good Heaven!,chapter_39,"""Good Heaven!",0.0
-"""What do you think?",chapter_39,"""Why will you think so?",0.0
-Oh!,chapter_40,"""Oh!",0.0
 """Certainly.",chapter_40,"""Certainly not.""",0.0
-Oh!,chapter_41,"""Oh!",0.0
-"""Good Heaven!",chapter_41,Good Heaven!,0.0
-what was the name of its proprietor?,chapter_42,"""What is his name?""",1.4142135623730951
+"""No, nothing at all.""",chapter_40,But she is nothing to me now.,0.0
+"""Good Heaven!",chapter_41,"""Good Heaven!",0.0
+"""Oh, no!""",chapter_41,"""Oh!",0.0
 Elizabeth was distressed.,chapter_42,But Lizzy!,1.4142135623730951
-Oh!,chapter_43,"""Oh!",0.0
-"""Oh!",chapter_43,"""Oh!",0.0
+what was the name of its proprietor?,chapter_42,"""What is his name?""",1.4142135623730951
+"""Can this be Mr.",chapter_43,Mr.,0.0
+why did she come?,chapter_43,"Why does she not come in?""",0.0
 She certainly did not hate him.,chapter_44,"""Certainly.",1.4142135623730951
 "They were, therefore, to go.",chapter_44,"To Pemberley, therefore, they were to go.",1.7320508075688772
-Her own thoughts were employing her.,chapter_45,"""Very well.",2.0
-"Louisa and I were agreeing that we should not have known her again.""",chapter_45,"""Very well.",2.6457513110645907
-But now it was all too natural.,chapter_46,They were natural and just.,0.0
-"where, where is my uncle?""",chapter_46,"My uncle!""",0.0
-"""I do not know.",chapter_47,But you do not know _all_.,0.0
-Good-bye.,chapter_47,"Good-bye.""",0.0
-"""MY DEAR SIR,",chapter_48,"""DEAR SIR,",0.0
-she cried.,chapter_48,she cried.,0.0
-Oh!,chapter_49,"""Oh!",0.0
+Her own thoughts were employing her.,chapter_45,"""A little.""",2.0
+"Louisa and I were agreeing that we should not have known her again.""",chapter_45,"""A little.""",2.6457513110645907
+"""Oh, yes!",chapter_46,"""Oh, yes!",0.0
+"""Oh!",chapter_46,"""Oh!",0.0
+I hope there was.,chapter_47,"""I hope not so.",0.0
+cried Elizabeth.,chapter_47,cried Elizabeth.,0.0
+she cried.,chapter_48,cried he.,0.0
+"""MY DEAR SIR,",chapter_48,"""Dear Sir,--",0.0
+"""Is it possible?""",chapter_49,How was that possible?,0.0
 How I long to see her!,chapter_49,"""How I long to see her again!",0.0
 "GARDINER.""",chapter_50,"GARDINER.""",0.0
-"""E.",chapter_50,"""Very well.",1.4142135623730951
-You are so strange!,chapter_51,"""How strange this is!",0.0
+"""E.",chapter_50,"""A little.""",1.4142135623730951
+"""Very true; and if I had my will, we should.",chapter_51,"""True.",0.0
 Good gracious!,chapter_51,"""Good gracious!",0.0
-"""I do not know.",chapter_52,But you do not know _all_.,0.0
 Oh!,chapter_52,"""Oh!",0.0
-Mr.,chapter_53,"""Mr.",0.0
-"""La!""",chapter_53,"""La!",0.0
-"I will think no more about him.""",chapter_54,"""What do you think?",0.0
-She did indeed.,chapter_54,"""Indeed I am.",0.0
+"""Yes, she did.""",chapter_52,yes.,0.0
+"""Oh!",chapter_53,"""Oh!",0.0
+said she.,chapter_53,said she.,0.0
+"I will think no more about him.""",chapter_54,only think!,0.0
+'Ah!,chapter_54,"""Ah!",0.0
+"""Oh!",chapter_55,"""Oh!",0.0
 Oh!,chapter_55,"""Oh!",0.0
-"He is, indeed.",chapter_55,"""Indeed I am.",0.0
-"No, never.",chapter_56,"This will never do.""",0.0
-"Now what have you to say?""",chapter_56,"""And what did she say?""",0.0
+"""I will not be interrupted.",chapter_56,Here she was interrupted again.,0.0
+"Now what have you to say?""",chapter_56,What does he say?,0.0
 "He then said,",chapter_57,said she.,0.0
-"""Oh!",chapter_57,"""Oh!",0.0
-said Elizabeth.,chapter_58,said Elizabeth to herself.,0.0
+"Collins.""",chapter_57,"Collins!""",0.0
+"""Indeed I had.",chapter_58,"""Are you indeed?",0.0
 """Oh!",chapter_58,"""Oh!",0.0
-Oh!,chapter_59,"""Oh!",0.0
-"""None at all.",chapter_59,"""What, none of you?""",0.0
-"""DEAR SIR,",chapter_60,"""MY DEAR SIR,",0.0
-"Yours, etc.""",chapter_60,"Yours, etc.,",0.0
+"""Good Heaven!",chapter_59,"""Good Heaven!",0.0
+"""Very, very much.",chapter_59,"""Very much.""",0.0
+said she.,chapter_60,said she.,0.0
+"This will never do.""",chapter_60,"No, never.",0.0
+"""Yours, etc.""",chapter_61,etc.,0.0
 """MY DEAR LIZZY,",chapter_61,"""MY DEAREST LIZZY,--",0.0
-"""Yours, etc.""",chapter_61,"Yours, etc.""",0.0
