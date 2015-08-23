@@ -25,6 +25,7 @@ if __name__ == "__main__":
                 sentence_list.append(row[0])
             chapters[chapter] = sentence_list
 
+    # variable declaration
     stop_words = stop_words
     translation_dict = translation_dict
     num_ngrams = range(1,5)
@@ -33,12 +34,13 @@ if __name__ == "__main__":
     similarity_metric = "cosine"
     verbose = True
 
+    # finds matches for each sentence in each chapter
     matches_to_write = {}
     for chapter in chapters:
-        # search for matches for each sentence in a given chapter
+        # this chapters' sentences are the strings to find matches for
         strings_to_match = chapters[chapter]
         database = []
-        # searches among all sentences in every other chapter
+        # searches a database of all sentences in every other chapter
         for other_chapter in chapters:
             if other_chapter != chapter:
                 database += chapters[other_chapter]
@@ -58,17 +60,18 @@ if __name__ == "__main__":
                                          matches[x][0][1])
         # gets corresponding matches for each string
         matched_from_database = [matches[x] for x in strings_to_match_sorted]
-        # saves the top 2 matches from this chapter
+        # saves top 2 (matched string, match) pairs from this chapter
         matches_to_write[chapter] = (strings_to_match_sorted[0:2],
                                      matched_from_database[0:2])
 
+    # writes the info in matches_to_write to a CSV
     with open("output_" + similarity_metric + ".csv", "w") as csvfile:
         writer = csv.writer(csvfile)
         # write header
         header = ["Strings to Match", "Chapter of Origin", "Matches",
                   "Score (lower is better)"]
         writer.writerow(header)
-        # write matches
+        # write matches sorted by chapter
         for match in sorted(matches_to_write,
                             key = lambda x: int(x.split("_")[1])):
             for i, row in enumerate(matches_to_write[match][0]):

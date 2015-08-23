@@ -14,7 +14,7 @@ def find_ngrams(iterable_ints, input_string):
     # does some indexing to find arbitrary ngrams 
     for n in iterable_ints:
         ngrams += [" ".join(onegrams[i:i+n]) for i in \
-            range(0,len(onegrams)-n+1)]
+            range(0, len(onegrams)-n+1)]
     return ngrams
 
 def hashing_trick(input_string, iterable_ints, dim_feature_space):
@@ -30,19 +30,19 @@ def hashing_trick(input_string, iterable_ints, dim_feature_space):
     # adds signed count of each token to the dictionary
     for token in tokens:
         try:
-            dictionary[abs(token)] += int(math.copysign(1,token))
+            dictionary[abs(token)] += int(math.copysign(1, token))
         except KeyError:
-            dictionary[abs(token)] = int(math.copysign(1,token))
+            dictionary[abs(token)] = int(math.copysign(1, token))
     return dictionary
 
 def dict_to_sparse(feature_dict, dim_feature_space):
     '''takes a hashing_trick() dict and returns a sparse feature row'''
-    keys = list(iter(feature_dict))
+    keys = list(feature_dict.keys())
     # feature_dict.values() might work but I am worried about order...
-    values = list(feature_dict[x] for x in iter(feature_dict))
+    values = [feature_dict[x] for x in keys]
     num_values = len(keys)
     sparse_row = scipy.sparse.csr_matrix((values, ([0]*num_values, keys)), 
-                                         (1,dim_feature_space))
+                                         (1, dim_feature_space))
     return sparse_row
 
 def ignore(input_string, stop_words):
@@ -104,7 +104,7 @@ def match_finder(strings_to_match, database, stop_words = None,
     # string cleaning
     for name in (strings_to_match, database):
         for string in name:
-            # convert all whitespaces to one space, converts to lowercase 
+            # convert all whitespace to one space, converts to lowercase 
             clean_string = re.sub(r"\s+", " ", string.lower()).strip()
             # removes anything that's not a space, letter, or number
             clean_string = re.sub(r"[^a-z0-9\s]", "", clean_string)
@@ -131,7 +131,8 @@ def match_finder(strings_to_match, database, stop_words = None,
                 else:
                     database_clean[i] = trans(string, translation_dict)
 
-    # tracks empty entries to not consider later on
+    # tracks entries in strings_to_match_clean and database_clean which
+    # are empty strings so that we don't consider them later on
     empty_indices_stm_c= []
     empty_indices_d_c = []
     for name in (strings_to_match_clean, database_clean):
@@ -151,17 +152,18 @@ def match_finder(strings_to_match, database, stop_words = None,
             if round(i/db_size, 1) != round((i+1)/db_size, 1):
                 print("Making Sparse Matrix:",
                       int(round((i+1)/db_size, 1)*100), "% complete")
+        # sparsify with hash trick
         row_dict = hashing_trick(line, num_ngrams, dim_feature_space)
         new_row = dict_to_sparse(row_dict, dim_feature_space)
         database_sparse = scipy.sparse.vstack([database_sparse, new_row])
 
-    """
-    for each string in strings_to_match_clean, finds the 3 most similar
-    strings in database_clean and add them and their score to matches
-    """
+    # for each string in strings_to_match_clean, finds the num_matches
+    # most similar strings in database_clean and add them and their scores
+    # to matches
     match_size = len(strings_to_match_clean)
     matches = {}
     for i, line in enumerate(strings_to_match_clean):
+        # do not consider empty strings
         if i in empty_indices_stm_c:
             continue
         else:
@@ -177,8 +179,10 @@ def match_finder(strings_to_match, database, stop_words = None,
             distances = sklearn.metrics.pairwise.pairwise_distances(sparse, \
                 database_sparse, metric = similarity_metric)
             distances = distances[0].tolist()
-            # does some indexing/sorting shenanigans to find top x matches
-            valid_inds = [j for j in range(len(distances)) if j not in empty_indices_d_c]
+            # does some indexing/sorting shenanigans to find top
+            # num_matches matches that aren't empty strings
+            valid_inds = [j for j in range(db_size) if j not in
+                          empty_indices_d_c]
             valid_inds.sort(key = lambda ind: distances[ind])
             del valid_inds[num_matches:]
             strs = [database[ind] for ind in valid_inds]
